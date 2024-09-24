@@ -35,10 +35,10 @@ const isbn = isbnInput.value;
           if (e.target.classList.contains("delete")) {
             if (confirm("Are you sure you want to remove this book?")) {
               const row = e.target.parentElement.parentElement;
-              
+              bookList.removeChild(row);
             }
           }
-			bookList.removeChild(row);
+			
         });
 
 	
