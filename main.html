@@ -7,28 +7,27 @@
 </head>
 
 <body>
-	<h1>MyBookList</h1>
-	<div class=form-group>
-		<input id="title" type = "text" placeholder="Title">
-		<input id="author" type = "text" placeholder="Author">
-		<input id="isbn" type = "text" placeholder="Isbn">
-		<button id="submit">Add Book</button>
-	</div>
-	<table class="table table-striped">
-		<thead>
-			<tr>
-				<th>Title</th>
-				<th>Author</th>
-				<th>ISBN#</th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody id="book-list">
-		</tbody>
-	</table>
-    <script type="text/javascript" src="./script.js">
+	<h1>My<span>Book</span>List</h1>
+
+    <div class="form-group">
+      <input type="text" id="title" placeholder="Title" />
+      <input type="text" id="author" placeholder="Author" />
+      <input type="text" id="isbn" placeholder="ISBN#" />
+      <button id="submit">Add Book</button>
+    </div>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN#</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+	<script type="text/javascript" src="./script.js">
 </script>
-
 </body>
-
 </html>
